@@ -43,16 +43,10 @@ document.addEventListener('DOMContentLoaded', () => {
   // === Ad Rendering ===
   const ads = [
     {
-      title: 'BeaconPro Lemonade Stand',
-      desc: 'Fresh local lemonade — order online or visit us in Hatfield!',
-      img: 'ads/lemonade.jpg',
-      url: 'https://lemonade.beaconpro.net'
-    },
-    {
       title: 'BeaconMusic 2.0',
-      desc: 'Stream curated playlists and high-fidelity tracks.',
+      desc: 'Stream high-fidelity tracks.',
       img: 'ads/music.jpg',
-      url: 'https://beaconmusic.beaconpro.net'
+      url: 'https://beaconpro.github.io/BeaconMusic-2.0/'
     }
   ];
 
