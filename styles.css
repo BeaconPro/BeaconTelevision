@@ -1,0 +1,91 @@
+/* Base Reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #111;
+  color: #eee;
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  padding: 1rem;
+}
+
+/* Site Header */
+.site-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.site-header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+.site-header p {
+  font-size: 1.1rem;
+  opacity: 0.8;
+}
+
+/* Episode Card */
+.episode-card {
+  max-width: 800px;
+  margin: 2rem auto;
+  background: #1a1a1a;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+/* Video Wrapper */
+.video-wrapper {
+  position: relative;
+  background: #000;
+}
+.video-wrapper video {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.badge {
+  position: absolute;
+  top: 0.75rem;
+  right: 0.75rem;
+  background: #e63946;
+  color: #fff;
+  padding: 0.3rem 0.6rem;
+  font-size: 0.9rem;
+  font-weight: bold;
+  border-radius: 4px;
+  opacity: 0.9;
+  pointer-events: none;
+}
+
+/* Episode Info */
+.episode-info {
+  padding: 1rem 1.5rem;
+}
+.episode-info h2 {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+.description {
+  margin-bottom: 0.75rem;
+  opacity: 0.85;
+}
+.creator {
+  font-size: 0.95rem;
+  color: #aaa;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .site-header h1 {
+    font-size: 2rem;
+  }
+  .episode-info h2 {
+    font-size: 1.5rem;
+  }
+}
