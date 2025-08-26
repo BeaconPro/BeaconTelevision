@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BeaconPro Minimovies</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <h1>BeaconPro Minimovies</h1>
+    <p>Your indie, homemade episodic film festival.</p>
+  </header>
+
+  <main id="episodes">
+    <!-- Episode 1 -->
+    <article class="episode-card" data-expiry="2025-09-01">
+      <div class="video-wrapper">
+        <video controls poster="thumb-ep1.jpg">
+          <source
+            src="https://drive.google.com/uc?export=download&amp;id=YOUR_VIDEO_ID_1"
+            type="video/mp4">
+          Your browser doesn’t support the video tag.
+        </video>
+        <span class="badge">Leaving Soon</span>
+      </div>
+      <div class="episode-info">
+        <h2>Pilot Episode</h2>
+        <p class="description">
+          The journey begins. Homemade, raw, and full of heart.
+        </p>
+        <p class="creator">Created by T.A.S.E.R.</p>
+      </div>
+    </article>
+
+    <!-- Episode 2 -->
+    <article class="episode-card" data-expiry="2025-09-08">
+      <div class="video-wrapper">
+        <video controls poster="thumb-ep2.jpg">
+          <source
+            src="https://drive.google.com/uc?export=download&amp;id=YOUR_VIDEO_ID_2"
+            type="video/mp4">
+          Your browser doesn’t support the video tag.
+        </video>
+        <span class="badge">Leaving Soon</span>
+      </div>
+      <div class="episode-info">
+        <h2>The Saga Continues</h2>
+        <p class="description">
+          Cliffhangers and surprises—our story deepens.
+        </p>
+        <p class="creator">Created by T.A.S.E.R.</p>
+      </div>
+    </article>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
