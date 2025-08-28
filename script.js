@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       title: 'BeaconMusic 2.0',
       desc: 'Stream high-fidelity tracks.',
-      img: 'ads/music.jpg',
+      img: 'https://beaconpro.github.io/BeaconMusic-2.0/logo.png',
       url: 'https://beaconpro.github.io/BeaconMusic-2.0/'
     }
   ];
@@ -57,7 +57,7 @@ document.addEventListener('DOMContentLoaded', () => {
     a.target = '_blank';
     a.className = 'ad-card';
     a.innerHTML = `
-      <img src="${ad.img}" alt="${ad.title}">
+      <img src="${ad.img}" height="400" width="400" alt="${ad.title}">
       <div class="ad-content">
         <h4>${ad.title}</h4>
         <p>${ad.desc}</p>
